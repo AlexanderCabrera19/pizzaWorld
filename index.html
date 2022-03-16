@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Pizza!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- BTN TO GO TO TOP OF THE PAGE -->
+    <div class="btn-top">
+        <span class="fas fa-angle-up"></span>
+    </div>
+
+    <!-- PRINCIPAL MENU -->
+    <header class="main">
+        <div class="logo" id="logo">
+            <a href="#"><img src="./assets/logo.png" alt="World Pizza Logo"oncontextmenu="return false" id="home"></a>
+        </div>
+        <div class="menu-bar" id="menuBar">
+            <i class="fas fa-angle-right" id="btnMenuClose"></i>
+
+            <nav class="links" id="links">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#our-team">Our Dream Team</a></li>
+                    <li><a href="#our-ingredients">Our Ingredients</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="socials">
+                <a href=""><span class="fab fa-facebook"></span></a>                
+                <a href=""><span class="fab fa-instagram"></span></a>                
+                <a href=""><span class="fab fa-twitter"></span></a>               
+            </div>
+        </div>
+        <i class="fas fa-bars" id="btnMenuOpen"></i>
+    </header>
+
+    <!-- SLIDER OF PIZZAS-->
+    <section id="menu-products">
+        <div class="principal-container">
+            <button id="leftBtn"><span class="fas fa-angle-left"></span></button>
+
+            <div class="slider">
+                <div class="product-container">
+                    <div class="product-description">
+                        <span class="subtitle-product"><b>Premium</b> Pizza</span>
+                        <h2>Pepperoni</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique mollitia suscipit iusto soluta ullam sequi.</p>
+                        <button class="btn">Order it here! <span class="fas fa-angle-right"></span></button>
+                    </div>
+                    <div class="product-image">
+                        <img src="./assets/menu/peperoni.png" alt="Pepperoni Pizza">
+                    </div>
+                </div>
+                <div class="product-container">
+                    <div class="product-description">
+                        <span class="subtitle-product"><b>Premium</b> Pizza</span>
+                        <h2>Special</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique mollitia suscipit iusto soluta ullam sequi.</p>
+                        <button class="btn">Order it here! <span class="fas fa-angle-right"></span></button>
+                    </div>
+                    <div class="product-image">
+                        <img src="./assets/menu/especial.png" alt="Special Pizza">
+                    </div>
+                </div>
+                <div class="product-container">
+                    <div class="product-description">
+                        <span class="subtitle-product"><b>Classic</b> Pizza</span>
+                        <h2>Margherita Pizza</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique mollitia suscipit iusto soluta ullam sequi.</p>
+                        <button class="btn">Order it here! <span class="fas fa-angle-right"></span></button>
+                    </div>
+                    <div class="product-image">
+                        <img src="./assets/menu/margarita.png" alt="Margherita Pizza">
+                    </div>
+                </div>
+                <div class="product-container">
+                    <div class="product-description">
+                        <span class="subtitle-product"><b>Premium</b> Pizza</span>
+                        <h2>American</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique mollitia suscipit iusto soluta ullam sequi.</p>
+                        <button class="btn">Order it here! <span class="fas fa-angle-right"></span></button>
+                    </div>
+                    <div class="product-image">
+                        <img src="./assets/menu/americana.png" alt="American Pizza">
+                    </div>
+                </div>
+                <div class="product-container">
+                    <div class="product-description">
+                        <span class="subtitle-product"><b>New</b> Pizza</span>
+                        <h2>Supreme</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique mollitia suscipit iusto soluta ullam sequi.</p>
+                        <button class="btn">Order it here! <span class="fas fa-angle-right"></span></button>
+                    </div>
+                    <div class="product-image">
+                        <img src="./assets/menu/suprema.png" alt="Supreme Pizza">
+                    </div>
+                </div>
+            </div>
+
+            <button id="rightBtn"><span class="fas fa-angle-right"></span></button>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION  -->
+    <section id="services">
+        <div class="services-titles">
+            <h2 class="subtitle">The Best Pizza of the World</h2>
+            <h1 class="title">Welcome to Wold Pizza!</h1>
+        </div>
+        <div class="services-container">
+            <div class="principal-picture">
+                <img src="./assets/mitad-mitad.png" alt="two taste pizza">
+            </div>
+            <div class="items quality">
+                <p><span class="fas fa-pizza-slice"></span></p>
+                <h3 class="item-title">Quality</h3>
+                <p class="item-text">Quality is what makes us who we are. Our commitment to our customers leads us to always guarantee their satisfaction.</p>
+            </div>
+            <div class="items ingredients">
+                <p><span class="fas fa-cheese"></span></p>
+                <h3 class="item-title">Ingredients</h3>
+                <p class="item-text">Our ingredients are finely and delicately selected by our team of cooks to ensure the standard of our meals.</p>
+            </div>
+            <div class="items speed">
+                <p><span class="fas fa-clock"></span></p>
+                <h3 class="item-title">Speed</h3>
+                <p class="item-text">We know that we are in an era where we want everything as quickly as possible, therefore, we meet a high standard of speed in our meals.</p>
+            </div>
+            <div class="items delivery">
+                <p><span class="fas fa-shipping-fast"></span></p>
+                <h3 class="item-title">Delivery</h3>
+                <p class="item-text">We have home deliveries. We guarantee delivery in a timely manner.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- OUR TEAM SECTION  -->
+    <section id="our-team">
+        <div class="person">
+            <img src="./assets/perfil1.png" alt="Chef-1" class="image-person">
+            <div class="info-person">
+                <h2>Donato Sempolis</h2>
+                <p>Pizza Chef</p>
+                <div class="social-person">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                </div>
+            </div>
+        </div>    
+        <div class="person">
+            <img src="./assets/perfil2.png" alt="Chef-2" class="image-person">
+            <div class="info-person">
+                <h2>Elizabeth Parker</h2>
+                <p>Chef</p>
+                <div class="social-person">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                </div>
+            </div>
+        </div>    
+        <div class="person">
+            <img src="./assets/perfil3.png" alt="Chef-3" class="image-person">
+            <div class="info-person">
+                <h2>Rick Palomino</h2>
+                <p>Chef's Assistant</p>
+                <div class="social-person">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                </div>
+            </div>
+        </div>    
+        <div class="person">
+            <img src="./assets/perfil4.png" alt="Chef-4" class="image-person">
+            <div class="info-person">
+                <h2>Michelle González</h2>
+                <p>Assistant</p>
+                <div class="social-person">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- OUR INGREDIENTS SECTION -->
+    <section id="our-ingredients">
+        <div class="ingredient">
+            <img src="./assets/ingredientes1.jpg" alt="cheeses" class="ingredient-image">
+            <div class="info-ingredient">
+                <p><span class="fas fa-cheese"></span></p>
+                <p class="ingredient-text">Cheeses</p>
+            </div>
+        </div>
+        <div class="ingredient">
+            <img src="./assets/ingredientes2.jpg" alt="vegetables" class="ingredient-image">
+            <div class="info-ingredient">
+                <p><span class="fas fa-leaf"></span></p>
+                <p class="ingredient-text">Vegetables</p>
+            </div>
+        </div>
+        <div class="ingredient">
+            <img src="./assets/ingredientes3.jpg" alt="sauces" class="ingredient-image">
+            <div class="info-ingredient">
+                <p><span class="fas fa-fill-drip"></span></p>
+                <p class="ingredient-text">Sauces</p>
+            </div>
+        </div>
+        <div class="ingredient">
+            <img src="./assets/ingredientes4.jpg" alt="meats" class="ingredient-image">
+            <div class="info-ingredient">
+                <p><span class="fas fa-drumstick-bite"></span></p>
+                <p class="ingredient-text">Meats</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION  -->
+    <section id="contact">
+        <div class="contact-title">
+            <h2 class="subtitle">We want to know your opinion!</h2>
+            <h3 class="title">Contact Us</h3>
+        </div>
+        <form action="" id="form">
+            <div class="two-fiels">
+                <div class="inputWithIcon">
+                    <input type="text" name="name" id="name" class="input-text" placeholder="Name...">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="inputWithIcon">
+                    <input type="email" name="email" id="email" class="input-email" placeholder="Email...">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+
+            <div class="fiels">
+                <div class="inputWithIcon textareaIcon">
+                    <textarea name="comments" id="comments" class="textarea" placeholder="Enter your message..."></textarea>
+                    <i class="fas fa-comments"></i>
+                </div>
+            </div>
+
+            <div class="fiels-btn">
+                <input type="submit" class="btn btn-input" value="Submit" id="submit">
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <div class="socials-methods">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Lorem ipsum dolor sit amet.</span>
+            </div>
+            <div class="socials-methods">
+                <i class="fas fa-envelope"></i>
+                <span>info@worldpizza.com</span>
+            </div>
+            <div class="socials-methods">
+                <i class="fas fa-phone"></i>
+                <span>+54 9 1166-8899</span>
+            </div>
+            <div class="socials-methods">
+                <i class="fab fa-twitter"></i>
+                <span>@worldpizza</span>
+            </div>
+        </div>
+        <div class="copy">
+            <h3>Developed by Alexander Cabrara | alexander.cabrera.it@gmail.com</h3>
+        </div>
+
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
