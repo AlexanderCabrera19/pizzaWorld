@@ -314,10 +314,12 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+            filter: grayscale(90%);
 }
 .person:hover .image-person{
-    filter: none;
+    -webkit-filter: none;
+            filter: none;
 }
 .info-person{
     position: absolute;
